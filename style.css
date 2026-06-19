@@ -96,7 +96,7 @@ body {
   align-items:center;
   font-size:30px;
   display:none;
-  gap:25px;
+  gap:10px;
 }
 .navbar-s4 i{
   padding:5px;
@@ -579,10 +579,10 @@ body {
         background-color:#00D352;
     }
     .search-items{
-        flex: 1 1 calc(50% - 2px);
+        flex: 1 1 calc(50% - 5px);
         min-width: 0;
-        font-size: 8px;
-        padding: 3px 3px;
+        font-size: 13px;
+        padding: 8px 10px;
         position:sticky;
         top:85px;
         z-index:2;
@@ -603,7 +603,7 @@ body {
           font-family:sans-serif;
         }
 }
-@media screen and (max-width:700px){
+@media screen and (max-width:600px){
   body{
         font-size:10px;
         font-family:sans-serif;
@@ -645,7 +645,7 @@ body {
     .search-items{
         flex: 1 1 calc(50% - 5px);
         min-width: 0;
-        font-size: 14px;
+        font-size: 13px;
         padding: 8px 10px;
         position:sticky;
         top:85px;
@@ -666,5 +666,6 @@ body {
         .search-area button{
           font-family:sans-serif;
         }
+
 }
   
