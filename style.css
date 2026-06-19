@@ -579,10 +579,10 @@ body {
         background-color:#00D352;
     }
     .search-items{
-        flex: 1 1 calc(50% - 4px);
+        flex: 1 1 calc(50% - 2px);
         min-width: 0;
-        font-size: 12px;
-        padding: 6px 8px;
+        font-size: 8px;
+        padding: 3px 3px;
         position:sticky;
         top:85px;
         z-index:2;
