@@ -12,7 +12,7 @@ body {
 
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   padding: 15px;
   gap: 10px;
   align-items:center;
@@ -27,7 +27,8 @@ body {
   align-items: center;
   gap: 8px;
   font-size: 14px;
-  padding:5px;
+  flex-grow:1;
+  padding:0px;
   justify-content: center;
   border-radius: 40px;
   border: 3px solid transparent;
@@ -51,6 +52,7 @@ body {
   align-items: center;
   justify-content: flex-end;
   font-size: 20px;
+  flex-grow:3;
 }
 
 .navbar-s3 p {
@@ -94,7 +96,7 @@ body {
 .navbar-s4{
   display:flex;
   align-items:center;
-  font-size:30px;
+  font-size:35px;
   display:none;
   gap:10px;
 }
@@ -645,7 +647,7 @@ body {
     .search-items{
         flex: 1 1 calc(50% - 5px);
         min-width: 0;
-        font-size: 13px;
+        font-size: 14px;
         padding: 8px 10px;
         position:sticky;
         top:85px;
